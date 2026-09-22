@@ -1,0 +1,22 @@
+bundle:
+  name: ecommerce_data_platform
+
+include:
+  - resources/*.yml
+
+variables:
+  warehouse_id:
+    description: "SQL Warehouse used by the analytics jobs"
+    default: "9e94c5ddf6b8a6c3" 
+
+sync:
+  include:
+    - notebooks/**
+
+targets:
+  dev:
+    mode: development
+    default: true
+
+    workspace:
+      host: https://dbc-8632cfda-0851.cloud.databricks.com

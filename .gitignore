@@ -1,0 +1,5 @@
+.terraform/
+.databricks/
+data/
+github-federation-policy.json
+workspace-assignment.json
