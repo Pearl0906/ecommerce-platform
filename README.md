@@ -6,7 +6,7 @@ The project uses an e-commerce dataset containing customers, orders, products, e
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal of this project is to demonstrate the responsibilities of a **Databricks DevOps / Data Platform Engineer**.
 
